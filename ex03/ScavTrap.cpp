@@ -3,18 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ScavTrap.cpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: francesco <francesco@student.42.fr>        +#+  +:+       +#+        */
+/*   By: ftholoza <ftholoza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/03 14:20:07 by francesco         #+#    #+#             */
-/*   Updated: 2024/03/03 22:06:48 by francesco        ###   ########.fr       */
+/*   Updated: 2024/03/04 18:17:25 by ftholoza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ScavTrap.hpp"
 #include "ClapTrap.hpp"
 
-    ScavTrap::ScavTrap(): ClapTrap()
+    ScavTrap::ScavTrap()
     {
+        std::cout << "ScavTrap default constructor called" 
         this->_max_hit_point = 100;
         this->_hit_point = 100;
         this->_energy_point = 50;
@@ -23,7 +24,7 @@
         return ;
     }
 
-    ScavTrap::ScavTrap(std::string name): ClapTrap(name)
+    ScavTrap::ScavTrap(std::string name)
     {
         std::cout << "ScavTrap: " << name << " created" << std::endl;
         this->_max_hit_point = 100;
