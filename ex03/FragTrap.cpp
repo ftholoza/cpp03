@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   FragTrap.cpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: francesco <francesco@student.42.fr>        +#+  +:+       +#+        */
+/*   By: ftholoza <ftholoza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/03 23:36:59 by francesco         #+#    #+#             */
-/*   Updated: 2024/03/03 23:58:51 by francesco        ###   ########.fr       */
+/*   Updated: 2024/03/05 19:21:20 by ftholoza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 FragTrap::FragTrap(): ClapTrap()
 {
-    std::cout << "FragTrap default constructor: " << this->_name;
+    std::cout << "FragTrap: default constructor: " << this->_name;
     std::cout << " created" << std::endl; 
     this->_max_hit_point = 100;
     this->_hit_point = 100;

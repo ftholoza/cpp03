@@ -6,7 +6,7 @@
 /*   By: ftholoza <ftholoza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/03 14:20:07 by francesco         #+#    #+#             */
-/*   Updated: 2024/03/04 18:17:25 by ftholoza         ###   ########.fr       */
+/*   Updated: 2024/03/05 19:21:58 by ftholoza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
     ScavTrap::ScavTrap()
     {
-        std::cout << "ScavTrap default constructor called" 
+        std::cout << "ScavTrap: default constructor called" << std::endl; 
         this->_max_hit_point = 100;
         this->_hit_point = 100;
         this->_energy_point = 50;

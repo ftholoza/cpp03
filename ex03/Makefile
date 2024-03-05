@@ -6,12 +6,12 @@
 #    By: ftholoza <ftholoza@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/03/02 14:57:36 by francesco         #+#    #+#              #
-#    Updated: 2024/03/04 13:17:13 by ftholoza         ###   ########.fr        #
+#    Updated: 2024/03/05 19:23:56 by ftholoza         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = c++
-FLAGS = -std=c++98 -Wall -Wextra -Werror
+FLAGS = -std=c++98 -Wall -Wextra -Werror -Wshadow -Wno-shadow
 SRC = ClapTrap.cpp main.cpp ScavTrap.cpp FragTrap.cpp DiamondTrap.cpp
 OBJ = $(SRC:.cpp=.o)
 INCLUDES = ClapTrap.hpp ScavTrap.hpp FragTrap.hpp
