@@ -6,7 +6,7 @@
 /*   By: francesco <francesco@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/02 02:36:19 by francesco         #+#    #+#             */
-/*   Updated: 2024/03/02 15:06:07 by francesco        ###   ########.fr       */
+/*   Updated: 2024/03/03 16:04:44 by francesco        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,9 @@
 
 class ClapTrap
 {
-    private:
+    protected:
         std::string _name;
+        int          _max_hit_point;
         int         _hit_point;
         int         _energy_point;
         int         _attack_damage;

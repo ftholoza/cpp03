@@ -6,7 +6,7 @@
 /*   By: ftholoza <ftholoza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/04 00:37:41 by francesco         #+#    #+#             */
-/*   Updated: 2024/03/05 19:17:21 by ftholoza         ###   ########.fr       */
+/*   Updated: 2024/03/06 15:47:41 by ftholoza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,9 +26,13 @@ class DiamondTrap: public ScavTrap, public FragTrap
         using ScavTrap::attack;
         using FragTrap::highFiveGuys;
         using ScavTrap::guardgate;
+        using ClapTrap::takeDamage;
+        using ClapTrap::display;
+        using ClapTrap::beRepaired;
         void    whoAmI(void);        
     private:
         std::string     _name;
+        using FragTrap::_max_hit_point;
         using FragTrap::_hit_point;
         using ScavTrap::_energy_point;
         using FragTrap::_attack_damage;

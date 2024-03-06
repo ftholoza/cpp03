@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: francesco <francesco@student.42.fr>        +#+  +:+       +#+        */
+/*   By: ftholoza <ftholoza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/02 14:54:09 by francesco         #+#    #+#             */
-/*   Updated: 2024/03/04 00:17:03 by francesco        ###   ########.fr       */
+/*   Updated: 2024/03/06 15:15:55 by ftholoza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int main(void)
 {
-    std::cout << "FragTrqp constructors tests:" << std::endl;
+    std::cout << "FragTrap constructors tests:" << std::endl;
     FragTrap    a;
     FragTrap    b("bob");
     FragTrap    c = b;

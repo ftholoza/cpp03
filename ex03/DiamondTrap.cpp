@@ -6,7 +6,7 @@
 /*   By: ftholoza <ftholoza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/04 12:59:15 by ftholoza          #+#    #+#             */
-/*   Updated: 2024/03/05 19:22:33 by ftholoza         ###   ########.fr       */
+/*   Updated: 2024/03/06 15:50:07 by ftholoza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 DiamondTrap::DiamondTrap(): ClapTrap("none_clap_name")
 {
-    std::cout << "DiamondTrap default constructor: " << this->_name;
+    std::cout << "DiamondTrap: default constructor: " << "none";
     std::cout << " created" << std::endl;
     this->_name = "none"; 
     return ;
