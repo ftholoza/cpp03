@@ -6,7 +6,7 @@
 /*   By: ftholoza <ftholoza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/02 03:59:15 by francesco         #+#    #+#             */
-/*   Updated: 2024/03/06 15:23:34 by ftholoza         ###   ########.fr       */
+/*   Updated: 2024/05/29 20:24:01 by ftholoza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -146,7 +146,7 @@
             return; 
         }
         int i = this->_max_hit_point - this->_hit_point;
-        if (amount < i)
+        if ((int)amount < i)
             i = amount;
         std::cout << "ClapTrap: " << this->_name << " regained ";
         std::cout << i << " of health" << std::endl;

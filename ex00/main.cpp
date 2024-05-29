@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: francesco <francesco@student.42.fr>        +#+  +:+       +#+        */
+/*   By: ftholoza <ftholoza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/02 14:54:09 by francesco         #+#    #+#             */
-/*   Updated: 2024/03/03 13:15:08 by francesco        ###   ########.fr       */
+/*   Updated: 2024/05/29 20:22:10 by ftholoza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,6 @@ int main(void)
     none.display();
     pika.display();
     pika2.display();
-    pika = pika;
     std::cout << "CLASS TESTS" << std::endl;
     ClapTrap sala("salamèche");
     ClapTrap bulb("Bulbizzare");

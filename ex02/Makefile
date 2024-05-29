@@ -3,15 +3,15 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: francesco <francesco@student.42.fr>        +#+  +:+       +#+         #
+#    By: ftholoza <ftholoza@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/03/02 14:57:36 by francesco         #+#    #+#              #
-#    Updated: 2024/03/03 23:47:21 by francesco        ###   ########.fr        #
+#    Updated: 2024/05/29 20:20:32 by ftholoza         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-CC = c++
-FLAGS = -std=c++98 -Wall -Wextra -Werror
+CXX = c++
+CXXFLAGS = -std=c++98 -Wall -Wextra -Werror
 SRC = ClapTrap.cpp main.cpp ScavTrap.cpp FragTrap.cpp
 OBJ = $(SRC:.cpp=.o)
 INCLUDES = ClapTrap.hpp ScavTrap.hpp FragTrap.hpp
@@ -22,7 +22,7 @@ all : $(NAME)
 re :fclean $(NAME)
 
 $(NAME) : $(OBJ)
-	$(CC) $(FLAGS) $(OBJ) -o $(NAME)
+	$(CXX) $(CXXFLAGS) $(OBJ) -o $(NAME)
 clean :
 	rm -f $(OBJ) ClapTrap.hpp.gch
 fclean: clean

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: francesco <francesco@student.42.fr>        +#+  +:+       +#+        */
+/*   By: ftholoza <ftholoza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/02 14:54:09 by francesco         #+#    #+#             */
-/*   Updated: 2024/03/03 22:01:55 by francesco        ###   ########.fr       */
+/*   Updated: 2024/05/29 20:23:31 by ftholoza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,10 +83,7 @@ int main(void)
     ScavTrap    f = e;
     ScavTrap    g;
     g = e;
-
-    std::cout << "Ici:" << std::endl;
-    g = g;
-    
+  
     a.display();
     b.display();
     c.display();
